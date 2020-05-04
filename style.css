@@ -1,0 +1,799 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.icon-user {
+    color: gray;
+    font-size: 30px;
+}
+
+.icon-heart-empty {
+    color: gray;
+    font-size: 30px;
+}
+
+.img_select {
+    width: 256px;
+}
+
+.icon {
+    margin-top: 21px;
+}
+
+.icon svg:last-of-type{
+    font-size: 25px;
+    color: #606060;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.part1 input[type="search"] {
+    width: fit-content;
+    font-family: verdana;
+    font-size: 14px;
+    z-index: 222;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.form-control:focus {
+    border-color: #ccc !important;
+    outline: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.search {
+    left: 206px;
+    width: 45px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 34px;
+    background-color: gainsboro;
+    position: relative;
+    top: -34px;
+}
+
+.part1 {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
+    z-index: 999999;
+    background: #fff;
+    height: 19%;
+}
+
+.search_img {
+    width: 20px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5px;
+}
+
+.fa.fa-shopping-bag, svg.svg-inline--fa.fa-shopping-bag.fa-w-14.fa-2x {
+    left: 276px;
+    color: #656565;
+    position: relative;
+    top: -67px;
+    cursor: pointer;
+}
+
+.fa.fa-shopping-bag, svg.svg-inline--fa.fa-shopping-bag.fa-w-14.fa-2x:hover {
+    color: #33333375 !important;
+}
+
+.search_edit {
+    margin-top: 28px;
+}
+
+/*=========================== navbar ======================*/
+
+.first {
+    width: 100%;
+    position: relative;
+    top: -24px;
+}
+
+.first ul li {
+    display: inline-block;
+    padding: 0 4px;
+    font-family: verdana;
+    font-weight: normal;
+    cursor: pointer;
+    padding: 3px;
+    position: relative;
+    border-radius: 2px;
+}
+.first ul li a{
+  text-decoration: none;
+  color: #000;
+}
+.first ul li a:hover{
+  color: #fff;
+}
+
+.first ul li:hover {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 3px;
+}
+
+.first ul li:before{
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 2px;
+  background: #fff;
+  bottom: 0;
+  left: 32%;
+}
+/*  Navabr Small Screen */
+
+.menu{
+    position: relative;
+    top: -105px;
+    left: -43px;
+}
+
+/* .menu svg{
+    font-size: 32px;
+    color: #606060;
+    cursor: pointer;
+} */
+.menu .list{
+    background :linear-gradient(45deg, #ffa6a6fa, #323);
+    width: 100%;
+    padding: 16px 0;
+    position: fixed;
+    top: 90px;
+    left: 0;
+    display: none;
+    height: 100vh
+}
+.menu .list svg.fa-times{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    cursor: pointer;
+}
+.menu .list ul li{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 11px;
+    cursor: pointer;
+    transition: all .5s ease;
+    letter-spacing: 2.3px;
+    cursor: pointer;
+    line-height: 2.7;
+}
+
+.menu .list ul li svg{
+    font-size: 17px;
+    margin-left: 11px;
+    color: #fff;
+}
+.menu .list ul li nav{
+  width: 100%;
+  background: #333333c9;
+  height: 261px;
+  overflow-y: scroll;
+  margin-top: 30px;
+  display: none;
+  padding: 11px 0;
+  border-radius: 6px;
+}
+
+.menu .list ul li button{
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 7px;
+  transition: all .3s ease-in-out;
+}
+
+.menu .list ul li button:hover{
+    box-shadow: 0 0 5px #ccc;
+}
+.menu .list ul li .nv1 .nv1_list,
+.menu .list ul li .nv2 .nv2_list,
+.menu .list ul li .nv3 .nv3_list,
+.menu .list ul li .nv4 .nv4_list,
+.menu .list ul li .nv5 .nv5_list,
+.menu .list ul li .nv6 .nv6_list,
+.menu .list ul li .nv7 .nv7_list{
+width: 50%;
+float: left;
+}
+
+
+/*------------------ Hide Div In Navbar -------------------------*/
+
+.detail_new {
+    z-index: 2;
+    background-color: #fff;
+    position: fixed;
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.476), 0 0 8px #ccc;
+    margin: auto;
+    top: 152px;
+    padding: 34px 51px 18px 40px;
+    left: 20%;
+    width: 720px;
+}
+
+.detail_new ul li {
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.detail_new ul li:hover {
+    text-decoration: underline;
+}
+
+.detail_new .button2 {
+    background-color: #ff4183;
+    color: #fff;
+    border: 1px solid #ff4183;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 8px;
+}
+
+.detail_new button.button1 {
+    position: relative;
+    border: 1px solid whitesmoke;
+    top: -4px;
+    background-color: whitesmoke;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/*==================================== detail clothing in hover ================================*/
+
+.detail_clothing, .edit_dresses, .edit_tops, .edit_shoes, .edit_accessors, .edit_sale {
+    z-index: 2;
+    padding-left: 68px;
+    background-color: #fff;
+    position: fixed;
+    margin-top: 152px;
+    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.476), 0 0 8px #ccc;
+    padding-top: 40px;
+    padding-right: 71px;
+    left: 20%;
+
+}
+.edit_dresses, .edit_tops, .edit_shoes, .edit_accessors, .edit_sale{
+      width: 712px;
+}
+/*.detail_clothing{
+  background-color: #fff;
+   z-index: 2;
+   box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.476), 0 0 8px #ccc;
+  }*/
+
+.detail_clothing .button3, .detail_clothing .button4, .detail_clothing .button5, .detail_clothing .button6, .detail_clothing .button7 {
+    font-family: verdana;
+    color: #645e5e;
+    font-weight: 600;
+    position: relative;
+    outline: 0;
+    cursor: n-resize;
+    margin-bottom: 20px
+}
+
+.detail_clothing button {
+    white-space: nowrap;
+}
+
+.detail_clothing .button6, .detail_clothing .button7 {
+    background-color: whitesmoke;
+    color: #645e5e;
+    font-weight: 200;
+    border: 1px solid whitesmoke;
+}
+
+.detail_clothing button.button3 {
+    background-color: #e1b12c;
+    color: #fff;
+    border: 1px solid #e1b12c;
+    padding: 6px 11px 6px;
+}
+
+.detail_clothing li {
+    line-height: 1.3
+}
+
+.detail_clothing .button5 {
+    background-color: #ff4183;
+    border: 1px solid #ff4183;
+}
+
+.detail_clothing .button4 {
+    background-color: #409eda;
+    border: 1px solid #409eda;
+}
+
+.detail_clothing .button4, .detail_clothing .button5 {
+    color: #fff;
+    padding: 5px 17px 5px;
+    font-weight: 300;
+}
+
+/*======================= Edit Dresses =========================*/
+
+.edit_dresses .button3 {
+    background: rgba(255, 166, 166);
+    border: 1px solid rgba(255, 166, 166);
+    color: #fff;
+    padding: 6px 14px 6px;
+    margin-bottom: 16px;
+    white-space: nowrap;
+}
+
+.edit_dresses ul li {
+    line-height: 1.9
+}
+
+.edit_dresses .button8 {
+    background: #fd79a8;
+    border: 1px solid #fd79a8;
+    color: #fff;
+    padding: 4px 14px 4px;
+    margin-bottom: 16px;
+    white-space: nowrap;
+}
+
+/*-------------------------------- Edit Tops --------------------------*/
+
+.edit_tops button {
+    background: rgba(255, 166, 166);
+    border: 1px solid rgba(255, 166, 166);
+    color: #fff;
+    padding: 4px 14px 3px;
+    margin-bottom: 25px;
+    white-space: nowrap;
+}
+
+.edit_tops ul li {
+    /*line-height: 1.6*/
+}
+
+/*------------------------------------- Edit Shoes -------------------------*/
+
+.edit_shoes button {
+    background: #00cec9;
+    border: 1px solid #00cec9;
+    color: #fff;
+    padding: 3px 14px 3px;
+    margin-bottom: 17px;
+    white-space: nowrap;
+}
+
+.edit_shoes ul li {
+    line-height: 1.8
+}
+
+/*--------------------------------------- Edit Accessors -----------------------------------*/
+
+.edit_accessors button {
+    background-color: #e056fd;
+    border: 1px solid #e056fd;
+    color: #fff;
+    padding: 3px 14px 3px;
+    margin-bottom: 17px;
+    white-space: nowrap;
+}
+
+.edit_accessors ul li {
+    line-height: 1.8;
+}
+
+/*--------------------------------------- Edit Sale -----------------------------------*/
+
+.edit_sale button {
+    background-color: #e056fd;
+    border: 1px solid #e056fd;
+    color: #fff;
+    padding: 3px 14px 3px;
+    margin-bottom: 17px;
+}
+
+.edit_sale ul li {
+    line-height: 1.8;
+}
+
+/*------------------------------------------- Free Standard Delivery -------------------------------*/
+
+.show .left_f {
+    background-color: #fee6e6;
+    position: relative;
+    top: 156px;
+    text-align: center;
+    line-height: 2;
+    margin-bottom: -10px
+}
+
+div.show div.left_f span {
+    font-weight: bold
+}
+
+div.show div.center {
+    background-color: #ffa6a6;
+    position: relative;
+    top: 156px;
+    margin-left: -30px;
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+.show div.center span {
+    text-align: center;
+    color: #fff;
+    font-family: verdana;
+    line-height: 50px;
+}
+
+.right {
+    background-color: #fee6e6;
+    position: relative;
+    top: 156px;
+    margin-left: -30px;
+    text-align: center;
+}
+
+.discount {
+    color: black;
+    font-family: verdana;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.student {
+    position: relative;
+    top: -13px;
+    font-family: verdana;
+    font-size: 12px;
+}
+
+/*----------------------------------------  Pages ----------------------------------------*/
+
+.pages {
+    position: relative;
+    top: 145px;
+}
+
+.pages ul li {
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.pages ul li:first-of-type {
+    font-weight: bold;
+    margin-right: -17px;
+}
+
+.pages ul li:first-of-type:after {
+    content: " /";
+    font-size: 19px;
+}
+
+/*==================================== text  ===============================================*/
+
+.text {
+    margin-top: 170px;
+}
+
+.text h2 {
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.text p {
+    color: #5f5b5b;
+    font-size: 15px
+}
+
+/*------------------------- Discover ---------------------------------------------- */
+
+.discover h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.discover .edit_img, .discover .edit_img2, .discover .edit_img3, .discover .edit_img4, .discover .edit_img_part2, .discover .edit_img2_part2, .discover .edit_img3_part2, .discover .edit_img3_part3, .discover .edit_img3_part4, .discover .edit_img4_part4, .discover .edit_img4_part5, .discover .edit_img4_part6 {
+    position: relative;
+    cursor: pointer;
+    margin: auto;
+}
+
+.discover .hover1, .discover .hover2, .discover .hover3, .discover .hover4, .discover .hover1_part2, .discover .hover2_part2, .discover .hover2_part3, .discover .hover2_part4, .discover .hover2_part5, .discover .hover2_part6, .discover .hover3_part7, .discover .hover3_part6 {
+    padding-right: 16px;
+    background-color: #fee6e6;
+    position: relative;
+    top: -40px;
+    padding-bottom: 40px;
+    margin: auto;
+    text-align: center;
+    width: -webkit-fill-available;
+    margin-bottom: -39px;
+}
+
+.discover .hover1 {
+    top: -38px;
+    padding-bottom: 38px;
+}
+
+.discover .icon-heart {
+    font-size: 30px;
+    position: relative;
+    float: left;
+    left: 15px;
+    top: 4px;
+}
+
+.discover .icon-eye-open {
+    font-size: 30px;
+    position: relative;
+    top: 4px;
+    float: right;
+}
+
+.discover .show .buttom_img1 {
+    background: #677d86;
+    color: #fff;
+    position: relative;
+    top: 25px;
+    width: fit-content;
+    padding: 10px 21px 5px;
+    margin: auto;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.discover .show .mix {
+    position: relative;
+    top: 36px;
+    font-size: 15px margin:auto;
+}
+
+.discover .show .numbers {
+    position: relative;
+    top: 48px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+.discover .part {
+    margin-bottom: 76px;
+    margin: auto;
+    margin-top: 55px;
+    position: relative;
+}
+
+.discover {
+    padding-bottom: 258px;
+}
+
+.discover .par {
+    top: 151px;
+}
+
+.discover .m5, .discover .m6, .discover .m7, .discover .m9, .discover .m5_part2, .discover .m6_part2, .discover .m6_part3, .discover .m6_part4, .discover .m6_part5, .discover .m7_part5, .m8_part5, .m8_part6 {
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+
+.discover .m5, .discover .m6, .discover .m7, .discover .m9, .discover .m5_part2, .discover .m6_part2, .discover .m6_part3, .discover .m6_part4, .discover .m6_part5, .discover .m7_part5, .m8_part6, .m8_part5 {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.discover .img, .discover .img2, .discover .img3, .discover .img4, .discover .img_part1, .discover .img2_part2, .discover .img3_part2, .discover .img3_part3, .discover .img4_part3, .discover .img5_part3, .discover .img5_part7, .discover .img5_part8 {
+    margin: auto;
+    text-align: center;
+}
+
+.discover .m5 .img5, .discover .m6 .img6, .discover .m7 .img7, .discover .m9 .img9, .discover .img5_part2, .discover .img6_part2, .discover .img6_part3, .discover .img6_part4, .discover .img6_part5, .discover .img7_part5, .img8_part5, .img8_part6 {
+    height: 400px;
+    width: 261.66px;
+    margin: auto;
+}
+
+img.small2, .small3, .small4, .small5, .small6 {
+    border-radius: 50px;
+    object-fit: none;
+    position: relative;
+    top: 55px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+
+/*-------------------------------- Load -----------------------------------*/
+
+.load {
+    position: relative;
+    top: 50px;
+    margin-bottom: 92px;
+}
+
+.load button {
+    color: #fff;
+    padding: 10px 67px;
+    background: #000;
+    outline: 0;
+    margin-bottom: 5px
+}
+
+.load button:hover {
+    color: #fff
+}
+
+#loader_container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    text-align: center;
+}
+
+.loader-div {
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+    /* border-top: 8px solid #4876a4; */
+    border-top: 8px solid #677d86;
+    border-radius: 50%;
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*!----------------------Subscribe------------------*/
+
+.subscribe {
+    height: 422px;
+    background: #f3f3f3;
+    padding-top: 43px;
+}
+
+.subscribe button {
+    background: #000;
+    color: #fff;
+    padding: 10px 73px;
+}
+
+.subscribe button:hover {
+    color: #fff;
+}
+
+.subscribe h2 {
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.subscribe h2:after {
+    font-family: 'Font Awesome 5 free';
+    content: "\f107"
+}
+
+.subscribe li {
+    line-height: 2;
+    cursor: pointer;
+}
+
+.subscribe li:hover {
+    text-decoration: underline;
+}
+
+.subscribe i {
+    font-size: 23px;
+    color: #000;
+    margin: 7px
+}
+
+.select {
+    position: relative;
+    top: 48px;
+}
+
+.detail {
+    background: #cecece;
+    color: #000;
+    font-size: 18px;
+    /*display: none;*/
+}
+
+.sign_hide {
+    position: fixed;
+    z-index: 999999;
+    top: 111px;
+    background: #e1e1e1;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding-bottom: 45px;
+    left: 39px;
+    animation: circile 5s linear infinite;
+}
+
+@keyframes circile {
+    0% {
+        border-radius: 64% 36% 27% 73% / 55% 58% 42% 45%;
+    }
+    25% {
+        border-radius: 73% 27% 26% 38% / 73% 36% 64% 27%
+    }
+    50% {
+        border-radius: 28% 72% 44% 56% / 49% 40% 60% 51%
+    }
+    75% {
+        border-radius: 40% 60% 70% 30% / 47% 62% 38% 53%
+    }
+}
+
+.sign h1 {
+    font-weight: bold;
+}
+
+.sign span {
+    font-size: 17px;
+    position: relative;
+    bottom: 15px;
+}
+
+.sign label {
+    font-weight: 300;
+    position: relative;
+    bottom: 12px;
+}
+
+.sign .create {
+    cursor: pointer;
+}
+
+.sign .create:hover {
+    text-decoration: underline;
+}
+
+.sign button {
+    color: #fff;
+    background: #ffa6a6;
+    border: 1px solid #ffa6a6;
+    padding: 10px 71px;
+    font-size: 23px;
+}
+
+.sign input {
+    width: 244px;
+    margin: auto;
+}
+
+.sign label:before {
+    font-family: 'Font Awesome 5 free';
+    content: "\f063";
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 11px
+}
+
+.sign input[type="checkbox"]:checked+label:before {
+    font-family: 'Font Awesome 5 free';
+    content: "\f063";
+    color: #000;
+    cursor: pointer;
+    margin-right: 11px
+}

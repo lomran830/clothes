@@ -1,0 +1,214 @@
+@media (max-width: 934px) {
+	.icon-user, .icon-heart-empty {
+		font-size: 25px;
+	}
+	.img_select {
+		margin-left: -103px;
+		margin-top: 26px;
+	}
+	.search_edit {
+		margin-left: -113px;
+	}
+	.part1 input[type="search"] {
+		border-top-right-radius: 4px !important;
+		border-bottom-right-radius: 4px !important;
+	}
+	.search {
+		background-color: transparent;
+	}
+	.search_img {
+		left: -43px;
+	}
+	.fa.fa-shopping-bag {
+		left: 225px;
+	}
+}
+
+@media (max-width: 625px) {
+	.first ul li {
+		font-size: 6px;
+	}
+}
+
+@media (max-width: 721px) {
+	.edit_shoes {
+		padding-right: 0px;
+		width: 91%;
+		padding-left: 13px;
+	}
+}
+
+@media (max-width: 768px) {
+	.edit_tops {
+		width: 95%;
+		padding-left: 21px;
+		padding-right: 0;
+	}
+	.edit_tops ul li {
+		line-height: 1.2;
+	}
+	.edit_dresses {
+		padding-left: 13px;
+		padding-right: 4px;
+	}
+	.part1 input[type="search"] {
+		width: -webkit-fill-available;
+	}
+	.search_img {
+		left: -58px;
+	}
+	.detail_clothing .button5 {
+		margin-left: -23px;
+	}
+	.detail_clothing .button4 {
+		margin-left: 48px;
+	}
+	.detail_clothing {
+		padding-left: 17px;
+		padding-right: 71px;
+	}
+	.edit_shoes button {
+		padding: 3px;
+	}
+	.edit_accessors button.access {
+		position: relative;
+		right: 30px;
+	}
+	.detail .name {
+		font-size: 11px;
+	}
+}
+
+@media (min-width: 940px) {
+	@media (max-width: 992px) {
+		.detail_clothing {
+			padding-right: 0 !important;
+		}
+	}
+}
+
+@media (min-width: 824px) {
+	@media (max-width: 940px) {
+		.detail_clothing {
+			padding-right: 0;
+			padding-left: 23px;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	@media (max-width: 824px) {
+		.detail_clothing {
+			padding-left: 23px;
+			padding-right: 0;
+			width: 82%;
+		}
+		.edit_clothing ul {
+			font-size: 13px;
+			margin-top: -15px;
+		}
+	}
+}
+
+@media (min-width: 500px) {
+	@media (max-width: 768px) {
+		.detail_clothing {
+			padding-right: 0;
+			padding-left: 23px;
+			width: 83%;
+		}
+		.detail_clothing li {
+			font-size: 11px;
+		}
+		.detail_clothing ul {
+			margin-top: -10px;
+		}
+		.detail_clothing .button5 {
+			padding: 5px 2px 5px 4px;
+			font-size: 13px;
+		}
+	}
+}
+
+@media (max-width: 539px) {
+	.detail_new {
+		left: 0;
+		width: -webkit-fill-available;
+	}
+}
+
+@media (max-width: 767px) {
+	.discover .hover1, .discover .hover2, .discover .hover3, .discover .hover4, .discover .hover1_part2, .discover .hover2_part2, .discover .hover2_part3, .discover .hover2_part4, .discover .hover2_part5, .discover .hover2_part6, .discover .hover3_part6, .discover .hover3_part7 {
+		width: 261.65px;
+	}
+}
+
+@media (min-width: 767px) {
+	@media (max-width: 991px) {
+		.discover .hover1, .discover .hover2, .discover .hover3, .discover .hover4, .discover .hover1_part2, .discover .hover2_part2, .discover .hover2_part3, .discover .hover2_part4, .discover .hover2_part5, .discover .hover2_part6, .discover .hover3_part6, .discover .hover3_part7 {
+			width: 76%;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	@media (max-width: 991px) {
+		.discover div.line {
+			top: 219px;
+		}
+		.discover div.line1 {
+			top: -306px;
+		}
+		.discover {
+			padding-bottom: 0;
+			position: relative;
+			bottom: -158px;
+		}
+		.subscribe .line {
+			position: relative;
+			top: -103px;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.subscribe {
+		height: 1112px;
+	}
+}
+
+@media (min-width: 768px) {
+	@media (max-width: 992px) {
+		.subscribe {
+			height: 610px;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	@media (max-width: 1199px) {
+		.subscribe {
+			height: 455px;
+		}
+		.edit_dresses, .edit_tops, .edit_shoes, .edit_accessors, .edit_sale,.detail_new {
+			left: 12% !important;
+		}
+		.detail_clothing{
+			left: 6% !important
+			;
+		}
+	}
+
+}
+
+
+@media(max-width:991px){
+.hidden_xs_sm{
+	display: none;
+}
+}
+@media(min-width:992px){
+	.hidden_md_lg{
+		display: none;
+	}
+}
